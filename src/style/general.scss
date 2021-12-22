@@ -1,6 +1,13 @@
+// IMPORTS
 @import '~bootstrap/scss/bootstrap';
+@import './variables.scss';
 
 // RESET
 img{
     max-width: 100%;
+}
+
+// COMMON
+body{
+    background-color: $brand_secondary_color;
 }
