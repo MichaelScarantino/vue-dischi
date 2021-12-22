@@ -1,7 +1,7 @@
 <template>
     <div class="single-disc d-flex flex-column flex-grow-1 text-center">
         <div class="single-disc-image">
-            <img :src="details.poster" alt="details.title">
+            <img :src="details.poster" :alt="details.title">
         </div>
         <div class="single-disc-title">
             <h5>{{ details.title }}</h5>
