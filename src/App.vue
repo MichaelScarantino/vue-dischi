@@ -26,5 +26,6 @@ export default {
 main{
   width: 100%;
   height: calc((100vh - 80px) - 30px);
+  position: relative;
 }
 </style>
