@@ -22,4 +22,9 @@ export default {
 
 <style lang="scss">
 @import "./style/general";
+
+main{
+  width: 100%;
+  height: calc((100vh - 80px) - 30px);
+}
 </style>
