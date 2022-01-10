@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <Header />
-    <DiscsList />
     <main>
-
+      <DiscsList />
     </main>
   </div>
 </template>
