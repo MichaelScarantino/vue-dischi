@@ -51,7 +51,7 @@ export default {
                 return this.discs;
             }
             const filterGenreArray = this.discs.filter( (element) => {
-                return element.genre.toLowerCase().includes(this.changedGenre.toLowerCase())
+                return element.genre.toLowerCase() === this.changedGenre.toLowerCase();
             });
 
             return filterGenreArray;
